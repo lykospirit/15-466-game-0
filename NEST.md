@@ -8,7 +8,7 @@ This name captures the goal of having the various parts and functions relatively
 Here is a quick overview of what is included. For further information, ☺read the code☺ !
 - Base code (files you will certainly edit):
     - ```main.cpp``` creates the game window and contains the main loop. Set your window title, size, and initial Mode here.
-    - ```PongMode.*pp``` declaration+definition for a basic pong game. You'll probably rename this and build your own mode on it.
+    - ```FroggerMode.*pp``` declaration+definition for TODO. You'll probably rename this and build your own mode on it.
     - ```Jamfile``` responsible for telling FTJam how to build the project. Change this when you add additional .cpp files and to change your runtime executable's name.
     - ```.gitignore``` ignores generated files. You will need to change it if your executable name changes. (If you find yourself changing it to ignore, e.g., your editor's swap files you should probably, instead be investigating making this change in the global git configuration.)
 - Useful code (files you should investigate, but probably won't change):
@@ -82,7 +82,7 @@ Here are a few worthwhile variations:
   $ jam -q
 
 # Variation: run game if build succeeds:
-  $ jam && dist/pong
+  $ jam && dist/frogger
 
 # Variation: show commands being run (useful for debugging the Jamfile):
   $ jam -dx
@@ -91,7 +91,7 @@ Here are a few worthwhile variations:
   $ jam -h
 
 # Variation: this is what I generally use:
-  $ jam -q -j6 && dist/pong
+  $ jam -q -j6 && dist/frogger
 
 # Useful: delete all built files:
   $ jam clean
