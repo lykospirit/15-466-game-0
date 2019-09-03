@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Gray Frog
 
-Author: (TODO: your name)
+Author: Colin Gay
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Frogger with vehicle consumption - eat vehicles your size to grow.
 
 Screen Shot:
 
@@ -10,6 +10,7 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+WASD to move the frog.
+R to reset the game.
 
 This game was built with [NEST](NEST.md).
