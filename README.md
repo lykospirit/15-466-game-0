@@ -2,7 +2,7 @@
 
 Author: Colin Gay
 
-Design: Frogger with vehicle consumption - eat vehicles your size to grow.
+Design: Frogger with vehicle consumption - eat vehicles your size or smaller to grow.
 
 Screen Shot:
 
